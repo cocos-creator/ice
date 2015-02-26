@@ -1,6 +1,6 @@
 # Ice (gulp build bot)
 
-Ice 是一个 Gulp 的前端编译环境.
+Ice 是一个 Gulp 的前端编译环境. 它通过启动一个轻量级的 http 服务(experss), 解析给定路径的 gulpfile 和 sub-gulpfile, 从而将 gulp 的 task 分析出来, 发送给前端(React)展示这些 task 并等待前端的编译消息.
 
 ## 安装
 
