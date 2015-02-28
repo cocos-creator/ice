@@ -1,0 +1,16 @@
+{
+    "name": "fireball-build",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fireball-x/dev.git"
+    },
+    "dependencies": {
+        "nomnom": "1.8.1",
+        "gulp": "3.8.11",
+        "express": "4.11.2",
+        "glob": "4.4.0",
+        "body-parser": ""
+    },
+    "devDependencies": {
+    }
+}
