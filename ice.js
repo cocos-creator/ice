@@ -191,8 +191,10 @@ function loadTasks( opts, cb ) {
             currentDir = Path.dirname(file);
             var gulpfile = Path.join( dest, file );
             require (gulpfile);
+            console.log('finish parsing ' + file);
             delete require.cache[require.resolve(gulpfile)];
         }
+        console.log('finish loading gulpfiles.');
 
         Gulp.Gulp.prototype.task = originalTaskFn;
         console.log('Finish loading!');
